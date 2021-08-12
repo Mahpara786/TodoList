@@ -34,11 +34,13 @@ function TodoList() {
                 <div className="show item">
                 <ol>
                         {/* <li>{inputList}</li>  */}
+                        <div>
                        { items.map( (itemval) => {
                             return <li>{itemval}</li>;
                         }
                         )
                         }
+                        </div>
                     </ol>
                 </div> 
                 </>
